@@ -1,0 +1,110 @@
+/* nav bloğu başladı */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    width: 120px;
+  }
+  li {
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+/* nav bloğu bitti */
+
+/* body background başladı */
+.background {
+    background-color: antiquewhite;
+}
+/* body backgroun bitti */
+/* yazı fontları ayarı başladı */
+h1, h2, h3, h4, h5, h6{
+    font-family: cursive;
+    
+}
+ /*paragraf düzenlemesi açıldı  */
+p{
+    font-size: large;
+    font-family: cursive;
+}
+/*paragraf düzenlemesi kapandı  */
+
+/* yazı fontları ayarı bitti */
+
+/* ürünlerdeki resimleri ekranda yanyana gösterme başladı */
+* {
+    box-sizing: border-box;
+}
+
+.img-size {
+    width: 20%;
+    float: left;
+    padding: 5px;
+
+}
+/* ürünlerdeki resimleri ekranda yanyana gösterme bitti */
+
+/* indexteki resmi sayfanın ortasına alma başladı */
+.img-orta {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* indexteki resmi sayfanın ortasına alma bitti */
+
+/* yazıyı sayfa ortasına alma başladı */
+.yazi-orta {
+    text-align: center;
+    
+}
+/* yazıyı sayfa ortasına alma bitti */
+
+/*  index button ayarları başladı */
+.button {
+        background-color: white;
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        position: absolute;
+        left: 846px;
+        font-family: sans-serif;
+      
+}
+/*  index button ayarları bitti */
+
+.temizle::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* iletişim linkleri yer değiştirme başladı */
+.pos {
+    position: absolute;
+    left: 820px;
+}
+/* iletişim linkleri yer değiştirme bitti */
